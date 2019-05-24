@@ -10,6 +10,8 @@ import { AvatarDialogComponent } from './avatar-dialog/avatar-dialog.component';
 import { EditUserComponent } from './edit-user/edit-user.component';
 import { EditUserResolver } from './edit-user/edit-user.resolver';
 import { NewUserComponent } from './new-user/new-user.component';
+import { NewFornecedorComponent } from './new-fornecedor/new-fornecedor.component';
+import { NewPedidoComponent } from './new-pedido/new-pedido.component';
 import { HomeComponent } from './home/home.component';
 
 import { AngularFireModule } from '@angular/fire';
@@ -27,6 +29,8 @@ import {MatButtonModule, MatInputModule, MatSliderModule, MatDialogModule } from
     AvatarDialogComponent,
     EditUserComponent,
     NewUserComponent,
+    NewFornecedorComponent,
+    NewPedidoComponent,
     HomeComponent
   ],
   entryComponents: [AvatarDialogComponent],

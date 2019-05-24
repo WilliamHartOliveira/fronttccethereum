@@ -21,3 +21,20 @@ export const environment = {
  * because it will have performance impact when throw error
  */
 // import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+
+/*
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyAhJaalAJPbSujKPHkcz_y37vOIsAp9ZPw",
+    authDomain: "tccangularfront.firebaseapp.com",
+    databaseURL: "https://tccangularfront.firebaseio.com",
+    projectId: "tccangularfront",
+    storageBucket: "tccangularfront.appspot.com",
+    messagingSenderId: "208723028970",
+    appId: "1:208723028970:web:06184074e3ddb063"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+*/

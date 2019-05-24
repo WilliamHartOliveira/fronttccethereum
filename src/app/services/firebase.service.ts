@@ -39,7 +39,6 @@ export class FirebaseService {
     return this.db.collection('users',ref => ref.orderBy('age').startAt(value)).snapshotChanges();
   }
 
-
   createUser(value, avatar){
     return this.db.collection('users').add({
       name: value.name,
@@ -47,6 +46,25 @@ export class FirebaseService {
       surname: value.surname,
       age: parseInt(value.age),
       avatar: avatar
+    });
+  }
+
+  createFornecedor(value){
+    return this.db.collection('fornecedor').add({
+      name: value.name,
+      email: value.email,
+      date: value.date
+    });
+  }
+
+  createPedido(value){
+    return this.db.collection('pedido').add({
+      item: value.item,
+      desc: value.desc,
+      valor: value.valor,
+      data: value.data,
+      fornecedor_in: value.data,
+      fornecedor_out: value.data
     });
   }
 }
