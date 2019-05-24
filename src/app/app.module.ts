@@ -12,6 +12,7 @@ import { EditUserResolver } from './edit-user/edit-user.resolver';
 import { NewUserComponent } from './new-user/new-user.component';
 import { NewFornecedorComponent } from './new-fornecedor/new-fornecedor.component';
 import { NewPedidoComponent } from './new-pedido/new-pedido.component';
+import { NewNotaFiscalComponent } from './new-nota-fiscal/new-nota-fiscal.component';
 import { HomeComponent } from './home/home.component';
 
 import { AngularFireModule } from '@angular/fire';
@@ -31,6 +32,7 @@ import {MatButtonModule, MatInputModule, MatSliderModule, MatDialogModule } from
     NewUserComponent,
     NewFornecedorComponent,
     NewPedidoComponent,
+    NewNotaFiscalComponent,
     HomeComponent
   ],
   entryComponents: [AvatarDialogComponent],

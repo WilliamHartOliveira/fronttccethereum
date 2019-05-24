@@ -67,4 +67,12 @@ export class FirebaseService {
       fornecedor_out: value.data
     });
   }
+
+  createNotaFiscal(value){
+    return this.db.collection('nota_fiscal').add({
+      desc: value.desc,
+      fornecedor_in: value.data,
+      fornecedor_out: value.data
+    });
+  }
 }
